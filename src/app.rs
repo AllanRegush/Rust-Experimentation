@@ -2,6 +2,7 @@ use yew::prelude::*;
 
 
 use crate::components::header::Header;
+use crate::components::footer::Footer;
 
 pub struct App {
     link: ComponentLink<Self>,
@@ -47,6 +48,7 @@ impl Component for App {
                     </button>
                     <p>{ self.value }</p>
                 </div>
+                <Footer />
             </>
         }
     }

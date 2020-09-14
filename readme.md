@@ -4,7 +4,7 @@
 - wasm-pack
 
 #### To build
-`wasm-pack build --target web --out-name wasm --t-dir ./static`
+`wasm-pack build --target web --out-name wasm --out-dir ./static`
 
 #### To Run
 - Run on any webserver you would like
